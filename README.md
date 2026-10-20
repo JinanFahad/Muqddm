@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/JinanFahad/Muqddm">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=bf9f55&fontSize=64&height=100&text=Muqddm" alt="Muqddm" />
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=1b3c38&fontSize=64&height=100&text=Muqddm" alt="Muqddm" />
   </a>
 </p>
 
