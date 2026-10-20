@@ -1,191 +1,111 @@
-# مُقدِّم (Muqaddim)
+<div align="center">
 
-منصة سعودية لإنشاء دراسات جدوى احترافية للمطاعم والكافيهات بالذكاء الاصطناعي،
-مع مستشار ذكي، تحليل سوق من قوقل بلايسز، شات للإجراءات الحكومية،
-وتوليد عروض تقديمية جاهزة للمستثمرين.
+<h1>Muqddm | مُقَدِّم</h1>
 
-## المميزات
+<h3>AI-Powered Feasibility Study Platform</h3>
 
-- ✅ دراسة جدوى كاملة بـ PDF (مالي + سوق + مخاطر + خطوات)
-- ✅ تحليل المنافسين من Google Places (دبوس على الخريطة)
-- ✅ مستشار ذكي يجاوب على أسئلتك بناءً على دراستك
-- ✅ شات الإجراءات الحكومية السعودية
-- ✅ توليد Pitch Deck (عرض تقديمي للمستثمرين)
-- ✅ واجهة عربية كاملة (RTL) + دعم إنجليزي + الوضع الليلي
+<strong>Turning Business Ideas into Informed Decisions</strong>
 
-## التقنيات المستخدمة
+<p>An AI-powered web platform that helps aspiring entrepreneurs evaluate business ideas, generate feasibility studies, analyze markets, and make informed decisions.</p>
 
-**الباك اند:** Python 3.10 + Flask + SQLite + OpenAI (GPT-4o) + Google Places API + Playwright
-**الفرونت اند:** React 18 + TypeScript + Vite + Tailwind + Firebase Authentication
+<strong>Graduation Project | King Abdulaziz University | 2025–2026</strong>
+
+</div>
 
 ---
 
-## 📋 متطلبات التشغيل
+## 🛠️ Tech Stack
 
-قبل البدء، تأكدي من تثبيت:
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-- **Python 3.10+** → https://www.python.org/downloads/
-- **Node.js 18+** → https://nodejs.org/
-- **Git** → https://git-scm.com/
+### Backend & Database
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
----
+### AI & Integrations
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Google Places](https://img.shields.io/badge/Google_Places_API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Google Maps](https://img.shields.io/badge/Google_Maps_API-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase_Auth-DD2C00?style=for-the-badge&logo=firebase&logoColor=white)
 
-## 🚀 خطوات التشغيل (لأول مرة)
+### Design
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-### 1️⃣ نسخ المشروع
+## ✨ Key Features
 
-```bash
-git clone https://github.com/JinanFahad/CPIT-499.git
-cd CPIT-499
-```
+### 📊 AI-Powered Feasibility Studies
+Generate structured feasibility studies with market insights, financial projections, risk assessments, and business recommendations.
 
-### 2️⃣ إعداد الباك اند (Flask)
+### 📍 Location-Based Competitor Analysis
+Explore nearby competitors using Google Places API to better understand the local market.
 
-```bash
-# إنشاء بيئة بايثون افتراضية
-python -m venv venv
+### 🤖 AI Study Advisor
+Discuss generated feasibility reports with an AI assistant to clarify findings and explore recommendations.
 
-# تفعيل البيئة
-# على Windows:
-venv\Scripts\activate
-# على Mac/Linux:
-source venv/bin/activate
+### 🏛️ Government Procedures Assistant
+Get AI-powered guidance on Saudi business registration, licensing, and related business setup procedures.
 
-# تثبيت المكتبات
-pip install -r requirements.txt
+### 📈 Financial Analysis & Decision Support
+Review estimated revenues, costs, profitability, and feasibility indicators through clear financial summaries.
 
-# تثبيت متصفح Playwright (مطلوب لتوليد PDF)
-playwright install chromium
-```
+### 📑 Automated Reports & Pitch Decks
+Download feasibility reports as PDFs and generate investor pitch decks in PowerPoint format.
 
-### 3️⃣ إعداد متغيرات البيئة
+### 🌐 Bilingual User Experience
+Navigate a responsive interface available in Arabic and English.
 
-```bash
-# انسخي ملف القالب
-# على Windows:
-copy .env.example .env
-# على Mac/Linux:
-cp .env.example .env
-```
+### 🔐 User Authentication & Project Management
+Sign in using Firebase Authentication and manage saved projects and studies.
 
-ثم **افتحي ملف `.env`** وعبّي المفتاح الحقيقي:
+## ⚙️ How It Works
 
-```
-OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxx
-```
+1. **Create an Account:** Sign up or log in using Firebase Authentication.
+2. **Enter Business Details:** Provide the business type, location, budget, and estimated operating costs.
+3. **Generate a Feasibility Study:** Receive an AI-powered report based on financial estimates, market analysis, and nearby competitors.
+4. **Explore the Results:** Review projections, risks, market insights, and feasibility recommendations.
+5. **Consult the AI Assistants:** Discuss your study or ask about Saudi business setup procedures.
+6. **Export Your Documents:** Download a PDF feasibility report or generate a PowerPoint pitch deck.
 
-> 💡 **من أين تحصلين على المفتاح؟** اطلبيه من صاحبة المشروع (جنان/الجوهرة)، أو أنشئي مفتاحاً خاصاً من https://platform.openai.com/api-keys
+## 📸 Project Screenshots
 
-### 4️⃣ إعداد الفرونت اند (React)
+### 🏠 Landing Page
+![Muqddm Landing Page](screenshots/landing.jpeg)
 
-```bash
-# افتحي طرفية (terminal) جديدة
-cd frontend/muqqdimWeb-master
+### 📊 Dashboard
+![Muqddm Dashboard](screenshots/dashboard.jpeg)
 
-# تثبيت مكتبات npm
-npm install
-```
+### 📑 Feasibility Report
+![Muqddm Feasibility Report](screenshots/report.jpeg)
 
----
+### 🤖 Government Procedures Assistant
+![Muqddm Government Procedures Assistant](screenshots/government_chat.jpeg)
 
-## ▶️ تشغيل البرنامج
+### 📈 Pitch Deck Generator
+![Muqddm Pitch Deck](screenshots/pitch_deck.jpeg)
 
-المشروع يحتاج **طرفيتين مفتوحتين** في نفس الوقت:
+### 📁 Project Management
+![Muqddm Saved Projects](screenshots/projects.jpeg)
 
-### الطرفية الأولى — الباك اند:
+## 👩🏻‍💻 Project Team
 
-```bash
-# من مجلد المشروع الرئيسي
-# فعّلي البيئة الافتراضية أولاً
-venv\Scripts\activate       # Windows
-source venv/bin/activate     # Mac/Linux
+Muqddm was developed as a graduation project by a team of four Information Technology students at King Abdulaziz University.
 
-# شغّلي السيرفر
-python app.py
-```
+### 👥 Team Members
+- Jinan Fahad Almidfa
+- Aljoharah Aloraini
+- Joud Alharbi
+- Norah Alswayed
 
-**المتوقع:** `Running on http://127.0.0.1:5000`
+### 🎓 Academic Supervision
+**Dr. Manal Bayousif**
 
-### الطرفية الثانية — الفرونت اند:
+King Abdulaziz University  
+Faculty of Computing and Information Technology  
+Department of Information Technology
 
-```bash
-cd frontend/muqqdimWeb-master
-npm run dev
-```
-
-**المتوقع:** `Local: http://localhost:5173/`
-
-### 🌐 افتحي المتصفح على:
-
-**http://localhost:5173**
-
----
-
-## 🗂️ هيكل المشروع
-
-```
-CPIT-499/
-├── app.py                      # السيرفر الرئيسي (Flask)
-├── database.py                 # قاعدة البيانات (SQLite)
-├── ai_report_engine.py         # محرك توليد دراسة الجدوى
-├── ai_pitch_engine.py          # محرك توليد العرض التقديمي
-├── gov_consultant.py           # شات الإجراءات الحكومية
-├── market_ai.py                # تحليل المنافسين
-├── financial_engine.py         # حسابات المالية
-├── decision_engine.py          # تصنيف المشروع
-├── pdf_generator.py            # تحويل التقرير إلى PDF
-├── ppt_builder.py              # توليد PowerPoint
-├── assets/                     # الشعارات
-├── templates/                  # قوالب HTML + pptx
-├── requirements.txt            # مكتبات بايثون
-│
-└── frontend/muqqdimWeb-master/
-    ├── src/app/
-    │   ├── pages/              # صفحات التطبيق
-    │   ├── components/         # المكونات المشتركة
-    │   ├── firebase.ts         # إعدادات Firebase
-    │   └── routes.tsx          # مسارات التنقل
-    ├── package.json
-    └── vite.config.ts
-```
-
----
-
-## 🔑 الملفات الحساسة (غير مرفوعة على GitHub)
-
-هذي الملفات **لازم تحصلي عليها من عضوة الفريق**، مو موجودة في القيت هب:
-
-| الملف         | الوصف          | كيف تحصلين عليه              |
-| ------------- | -------------- | ---------------------------- |
-| `.env`        | مفتاح OpenAI   | اطلبيه خاص أو استخدمي مفتاحك |
-| `muqaddim.db` | قاعدة البيانات | تنشأ تلقائياً عند أول تشغيل  |
-
----
-
-## 🐛 حل المشاكل الشائعة
-
-**المشكلة:** `ModuleNotFoundError: No module named 'flask'`
-**الحل:** تأكدي إنك فعّلتي البيئة الافتراضية (`venv\Scripts\activate`)
-
-**المشكلة:** `OPENAI_API_KEY not set`
-**الحل:** تأكدي من وجود ملف `.env` في مجلد المشروع الرئيسي (مو في مجلد فرعي)
-
-**المشكلة:** الـ PDF ما يتولّد
-**الحل:** شغّلي `playwright install chromium`
-
-**المشكلة:** `CORS error` في المتصفح
-**الحل:** تأكدي إن الباك اند شغّال على `http://localhost:5000`
-
-**المشكلة:** `Failed to load resource`
-**الحل:** تأكدي إن الاثنين شغالين (الباك اند + الفرونت اند) في نفس الوقت
-
----
-
-## 👥 فريق العمل
-
-- الجوهرة العريني
-- جنان فهد
-- نورة ال سويد
-- جود الحربي
-
-**مشروع CPIT-499** — جامعة الملك عبدالعزيز
+**Academic Year:** 2025–2026
