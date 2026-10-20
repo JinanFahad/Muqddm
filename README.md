@@ -1,8 +1,10 @@
+
 <p align="center">
   <a href="https://github.com/JinanFahad/Muqddm">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=1b3c38&fontSize=64&height=100&text=Muqddm" alt="Muqddm" />
+    <img src="screenshots/logo-color.png" width="180" alt="Muqddm Logo" />
   </a>
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=30&duration=3000&pause=1000&color=BEC5C1&center=true&vCenter=true&width=850&height=55&lines=AI-Powered+Feasibility+Study+Platform" alt="AI-Powered Feasibility Study Platform" />
