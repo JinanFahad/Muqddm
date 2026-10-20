@@ -101,8 +101,6 @@ Muqddm was developed as a graduation project by a team of four Information Techn
 - Joud Alharbi
 - Norah Alswayed
 
-### 🎓 Academic Supervision
-**Dr. Manal Bayousif**
 
 King Abdulaziz University  
 Faculty of Computing and Information Technology  
